@@ -28,7 +28,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/home" className="navbar-logo" onClick={closeMobileMenu}>
             TRVL
             <i class="fab fa-accessible-icon"></i>
           </Link>
